@@ -3,6 +3,15 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <compatibility-matrix version="1.0" type="framework">
+    <hal format="hidl">
+        <name>android.hardware.nfc</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>INfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.usb</name>
         <version>1</version>
