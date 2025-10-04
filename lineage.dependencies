@@ -11,9 +11,8 @@
     "revision": "lineage-23.0"
   },
   {
-    "remote": "tm",
+    "remote": "altair-devices",
     "repository": "proprietary_vendor_oneplus_sm8150-common",
-    "target_path": "vendor/oneplus/sm8150-common",
-    "revision": "lineage-23.0"
+    "target_path": "vendor/oneplus/sm8150-common"
   }
 ]
