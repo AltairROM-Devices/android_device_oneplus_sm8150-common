@@ -17,11 +17,6 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     otapreopt_script
 
-# Alert slider
-PRODUCT_PACKAGES += \
-    KeyHandler \
-    tri-state-key-calibrate
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
@@ -111,6 +106,11 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 # Device ID attestation
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
+
+# DeviceSettings
+PRODUCT_PACKAGES += \
+    DeviceSettings \
+    tri-state-key-calibrate
 
 # Display
 PRODUCT_PACKAGES += \
