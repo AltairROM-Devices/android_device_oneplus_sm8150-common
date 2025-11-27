@@ -2,13 +2,14 @@
 <!--
      Copyright (C) 2015-2016 The CyanogenMod Project
                    2017-2018 The LineageOS Project
+                   2025 Altair ROM Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
     <!-- Paths to the libraries that contain device specific key handlers -->
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
         <item>/system_ext/priv-app/LineageParts/LineageParts.apk</item>
-        <item>/system_ext/app/KeyHandler/KeyHandler.apk</item>
+        <item>/system_ext/app/DeviceSettings/DeviceSettings.apk</item>
         <item>/system_ext/priv-app/OnePlusCameraHelper/OnePlusCameraHelper.apk</item>
     </string-array>
 
