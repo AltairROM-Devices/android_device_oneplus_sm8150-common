@@ -105,9 +105,6 @@ on post-fs
 on late-fs
     mount_all /vendor/etc/fstab.qcom --late
 
-on early-boot
-    start vendor.sensors
-
 on boot
     chown system system /sys/kernel/qvr_external_sensor/fd
 
